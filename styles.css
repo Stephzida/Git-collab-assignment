@@ -2,7 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #db0a0a;
+    background-color:wheat!important;
+}
+.nav-link:hover{
+    border: 2px solid wheat !important;
+    border-radius: 4px;
+}
+.h-10{
+    height: 10vh;
+}
+input[type="checkbox"]{
+    accent-color: red;
+    box-shadow:3px 3px 10px black;
+    
 }
 
 
@@ -35,14 +47,14 @@ nav ul li a {
     text-decoration: none;
 } */
 
-main {
+/* main {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* .dashboard {
     text-align: center;
@@ -64,14 +76,14 @@ main {
     gap: 10px;
 }
 
-.team-members {
+/* .team-members {
     display: flex;
     gap: 20px;
-}
+} */
 
 .member {
     text-align: center;
-    background: #ebe4e4;
+    background: #ddd;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -80,6 +92,4 @@ main {
 .member img {
     border-radius: 50%;
 }
-background{
-    color: blueviolet;
-}
+
